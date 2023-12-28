@@ -1,0 +1,42 @@
+/* Global */
+.vheight-100 
+{
+    min-height: 100vh;
+}
+
+.below-nav 
+{
+    padding-top: 5rem;
+}
+
+/* Circle button */
+.btn-circle.btn-md 
+{ 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1090;
+    margin: 0 1.5rem 1.5rem 0;
+    border-radius: 50%;
+} 
+
+/* Rounded Corners Button */
+.btn-rounded.btn-md 
+{ 
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0 1.0rem 1.0rem 0;
+    border-radius: 18px;
+} 
+
+input:focus:invalid 
+{
+    box-shadow: none;
+}
+
+/* img buttons */
+.img-button:hover 
+{
+    cursor: pointer; 
+}
